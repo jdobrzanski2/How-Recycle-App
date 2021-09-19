@@ -1,0 +1,41 @@
+
+.title {
+  margin-top: 2em;
+}
+
+.subtitle {
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.menuBlock {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 80px;
+  margin-top: 2em;
+}
+
+.menuBlock img {
+  width:100%;
+  filter:blur(3px);
+}
+
+.menuBlock p, h4 {
+
+  color:#1A6234;
+  text-shadow: 1px 1px 1px black;
+}
+
+.menuBlock p{
+
+  margin-top: 2em;
+}
+
+.lastItem {
+  margin-bottom: 150px;
+}

@@ -1,0 +1,115 @@
+/* placeholder background */
+body {
+  /* background-color: #d9ffe4; */
+  background-color: rgba(217, 255, 228, 1);
+}
+
+.navbar {
+  background-color: #13995b;
+}
+
+#nav-link {
+  color: #000;
+}
+
+#nav-link:hover {
+  color: #fff;
+}
+
+.nav-item {
+  display: flex;
+  align-items: inherit;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: auto;
+}
+
+.footerGrid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 100%;
+}
+
+.foot-left {
+  grid-column: 1;
+  grid-row: auto;
+}
+
+.foot-center {
+  grid-column: 2;
+  grid-row: auto;
+}
+
+.foot-right {
+  grid-column: 3;
+  grid-row: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+#search-autofill {
+  position: absolute;
+  margin-top: 2.5rem;
+  background-color: #fff;
+  width: 50%;
+  border-radius: 5px;
+}
+
+#appended-list {
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+}
+#appended-list:hover {
+  background-color: green;
+  color: #fff;
+}
+
+form {
+  position: relative;
+}
+
+.homeIcon {
+  width: 40px;
+}
+
+.settingIcon {
+  width: 40px;
+}
+
+.helpIcon {
+  width: 40px;
+}
+
+.searchIcon {
+  width: 30px;
+}
+#signout {
+  background-color: transparent;
+  border: solid 1px rgba(34, 139, 69, 0);
+  color: #000;
+}
+#signout:hover {
+  color: white;
+}
+
+#navbarSupportedContent {
+  text-align: center;
+}
+
+.socialMedia {
+  text-align: center;
+  width: 100%;
+}
+.messagePop div {
+  background-color: rgb(204, 255, 218);
+  border: 0.5px solid rgba(25, 135, 84, 0.219);
+  border-bottom: none;
+}

@@ -1,0 +1,57 @@
+#aboutUsGrid {
+    display: grid;
+    background-color: #cbffbf;
+    width: 100%;
+    max-width: 450px;
+    height: 900px;
+    margin: 0 auto;
+    grid-template-rows: 15% 25% 25% 35%;
+    grid-template-columns: 50%;
+    grid-gap: 20px;
+}
+
+#aboutUsGrid #imgContainer1, #imgContainer2, #imgContainer3, #imgContainer4 {
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.imgThumbnail {
+    width: 100%;
+    border: 3px solid green;
+    max-height: 260px;
+}
+
+#containerTitle {
+    margin-top: 5em;
+    grid-row: 1;
+    grid-column: 1/ span 2;
+}
+
+#imageFrame {
+    grid-row: 2;
+    grid-column: 1/span 2;
+}
+
+#imgContainer1, #imgContainer3 {
+  float: left;
+}
+
+#imgContainer2, #imgContainer4 {
+    float: right;
+}
+
+#info {
+    margin-top: 200px;
+    background-color: #cbffbf;
+    text-align: left;
+    grid-row: 4;
+    grid-column: 1/ span 2;
+    height: 400px;
+}
+
+#surprise {
+    position: absolute;
+}
+

@@ -1,0 +1,116 @@
+.content {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+#profile {
+    text-align: left;
+    /* background-color: #61b969; */
+    background-color: rgba(239, 255, 247, 0.842);
+}
+#profile img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.card-body {
+    float: left;
+    
+}
+.row>* {
+    width: fit-content;
+    max-width: 100%;
+    float: left;
+}
+
+.listLocation{
+    position: relative;
+    margin-bottom: 80px;
+    box-shadow: 2px 2px 4px #198754;
+}
+.card {
+    /* background-color: #d9ffe4; */
+    /* background-color: #b9f5be; */
+    background-color: rgba(239, 255, 247, 0.842);
+    border:  solid 1px #198754;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px #198754;
+}
+.card-header{
+    background-color: rgba(97, 185, 105, 0.8);
+}
+/* #signout{
+    background-color: transparent;
+    border: solid 1px rgba(34, 139, 69, 0);
+} */
+
+#favoriteLocation h3, #locationHistory h3{
+
+    padding-bottom: 10px;
+}
+.favouriteItem {
+    /* background-color: #b9f5be; */
+    background-color: rgba(239, 255, 247, 0.842);
+    min-height: 50px;
+}
+.favouriteItem a{
+    text-decoration: none;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.favouriteItem:hover{
+    background-color: #13995b;
+}
+
+#profile button {
+    position: relative;
+    width: 100%;
+    border-radius: 0%;
+    margin: 0px;
+    box-shadow: 2px 2px 4px #198754;
+}
+#profile .col-md-4{
+    width: fit-content;
+} 
+/* .row button{
+    margin-left: 30%;
+} */
+
+.addFavourite {
+    float: right;
+    font-size: xx-large;
+    border: #198754;
+    color: black;
+    background-color: transparent;
+    padding: 0px;
+    padding-right: 10px;
+}
+.addFavourite:hover{
+    color: red;
+    visibility: visible;
+}
+
+.removeFavourite {
+    float: right;
+    font-size: xx-large;
+    border: #198754;
+    color: red;
+    background-color: transparent;
+    padding: 0px;
+    padding-right: 10px;
+}
+.removeFavourite:hover{
+    color: red;
+    visibility: visible;
+}
+.favoritePosition{
+    float: right;
+    height: 50px;
+}

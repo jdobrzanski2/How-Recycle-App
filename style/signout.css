@@ -1,0 +1,45 @@
+.message{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px rgb(25, 135, 84) solid;
+    border-radius: 3px;
+    z-index: 15;
+    background-color: rgb(204, 255, 218);
+    width: 500px;
+    max-width: 80%;
+    max-height:70%;
+    overflow:scroll;
+    padding: 10px;
+
+}
+.message.active {
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+#coverPage{
+    position:fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}
+#coverPage.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#signOutClose {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    min-width: 50px;
+}

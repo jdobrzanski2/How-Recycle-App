@@ -1,0 +1,16 @@
+#map {
+    /* height of map element */
+    height: 400px;
+    /* width of map element */
+    width: 100%;
+  }
+
+#directionMap {
+  /* height of map element */
+  height: 400px;
+  /* width of map element */
+  width: 100%;
+}
+#currentLocation{
+  display: none;
+}

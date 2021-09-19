@@ -1,0 +1,106 @@
+.title {
+    margin-top: 2em;
+}
+
+.comment {
+    margin: 0 auto;
+    width:85%;
+    height: auto;
+    margin-bottom: 8px;
+    box-shadow: 2px 2px 4px #198754;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    
+}
+
+#submitComment {
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+.commentAvatar {
+    width: 100%;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.bodyText {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#postCommentSection {
+
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 10em;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#signInAlert {
+    margin-top: 2em;
+    margin-bottom: 12em;
+    background-color: rgb(199, 255, 176);
+}
+
+.postButton {
+    width: 300px;
+}
+
+.card {
+    background-color: transparent;
+    margin: 0 auto;
+    border: transparent;
+}
+
+.col {
+    background-color: rgba(239, 255, 247, 0.842);
+}
+
+
+
+
+
+#mainContainer {
+
+    margin: 2em;
+    height:auto;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    background-color:#f5fff8;
+    box-shadow: 2px 2px 4px #198754;
+    padding: 15px;
+
+}
+
+
+#titleContainer {
+
+    text-align: left;
+    color: #006122;
+
+
+}
+
+
+#bodyContainer {
+
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#timeContainer {
+
+    text-align: left;
+    color:darkgrey;
+}
+
+#noComments {
+    text-align: center;
+    background-color: rgb(199, 255, 176);
+    width: 45%;
+    margin: 0 auto;
+}
+

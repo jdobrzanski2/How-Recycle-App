@@ -1,0 +1,23 @@
+.title {
+    margin-top: 2em;
+}
+
+.accordion div{
+    color:green;
+    background-color: rgba(239, 255, 247, 0.842);
+    
+}
+
+.accordion button {
+    background-color: rgb(97 185 105);
+}
+
+#submitForm {
+    width:70%;
+    margin: 0 auto;
+}
+
+.submitFormButton {
+    float:right;
+    margin-bottom: 6em;
+}

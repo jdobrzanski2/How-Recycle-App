@@ -1,0 +1,44 @@
+
+#menuItems {
+    text-align:center;
+  }
+
+#headerText {
+    display: inline-block;
+    margin-top: 2px;
+}
+
+#headerInfo {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#upperPortion {
+    display: flex;
+    vertical-align: bottom;
+}
+
+#prevPageBtn {
+    display: none;
+}
+
+#bannerMessage {
+    margin-top: 5px;
+    display: block;
+}
+
+.item {
+    cursor: pointer;
+    vertical-align: top;
+    text-align: center; 
+    box-shadow: 1px 1px 1px #198754;   
+}
+
+.item:hover {
+    box-shadow: 3px 3px 5px #686868, 1px 1px 4px #198754;
+}
+
+.sticky-bottom {
+    padding-bottom: 0px;
+    height: 62px;
+}

@@ -1,0 +1,55 @@
+.title {
+
+    margin-top: 2em;
+}
+
+#newsContent {
+    width: 90%;
+    height: 900px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+
+#mainContainer {
+
+    margin-bottom: 2em;
+    margin-top: 2em;
+    height:auto;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    background-color:#f5fff8;
+    box-shadow: 2px 2px 4px #198754;
+    padding:15px;
+
+}
+
+
+#mainContainer:hover {
+
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+
+}
+
+
+#titleContainer {
+
+    text-align: left;
+    color: #006122;
+
+
+}
+
+
+#bodyContainer {
+
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#timeContainer {
+
+    text-align: left;
+    color:darkgrey;
+}

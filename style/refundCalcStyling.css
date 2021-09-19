@@ -1,0 +1,72 @@
+.title {
+    margin-top: 2.5em;
+}
+
+.totalValue {
+    text-align: center;
+}
+
+#explainText {
+    padding: 0 4vw 0 4vw;
+    text-align: justify;
+    font-size: 11pt;
+}
+
+.bottleInput {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 30px;
+}
+
+#totalContainer {
+    margin: 0;
+    width: 100%;
+}
+
+#totalContainer h1{
+    font-size: 7vw;
+}
+
+.calcItem {
+    margin: 3vw;
+    width: 175px; 
+    text-align: center; 
+    display: inline-block;
+}
+
+.imgDiv {
+    padding: 10px 10px 0px 10px; 
+    margin: 0px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.imgDiv > img {
+    width: 150px; 
+    height: 150px; 
+    display: block;
+}
+
+.imgRow {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textRow {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.textRow > span {
+    width: 25%;
+    text-align: center;
+}

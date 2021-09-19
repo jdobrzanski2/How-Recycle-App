@@ -1,0 +1,233 @@
+
+.content {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    z-index: 0;
+    /* background-color: rgba(217, 255, 228, 1); */
+}
+
+#banner, .depot, button, .depot {
+    /* background-color: rgba(97, 185, 105, 0.8); */
+    /* background-color: #b9f5be; */
+    background-color: rgba(239, 255, 247, 0.842);
+    border: #198754 solid 1px;
+    
+}
+.depot{
+    box-shadow: 2px 2px 4px #198754;
+}
+  
+#banner {
+    width: 100%;
+    height: 60px;
+    float: left;
+    top: 10px;
+    position: relative;
+    padding: 0px;
+    box-shadow: 2px 2px 4px #198754;
+}
+#banner img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+#banner h5 {
+    width: 40%;
+    float: left;
+    padding-left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+} 
+#btnDisposalInfo {
+    float: right;
+    height: 59px;
+    width: 40%;
+    background-color: transparent;
+    border: 0px;
+    border-left: #198754 1px solid;
+    
+}
+
+#btnList, #btnMap{
+    width: 50%;
+    float: left;
+    position: relative;
+    border: solid 1px rgb(34, 139, 69);
+    border-radius: 0%;
+    margin-top: 15px;
+    height: 30px;
+    box-shadow: 2px 2px 1px #198754;
+}
+#btnListandMap{
+    position: relative;
+    
+}
+#listDepot {
+    position: relative;
+    width: 100%;
+    margin-top: 110px;
+    padding: 0px;
+}
+.depot {
+    margin-bottom: 10px;
+}
+.depot p {
+    text-align: left;
+    padding-left: 10px;
+} 
+.depot a {
+    text-decoration: none;
+    color: black;
+}
+.depot a p {
+    margin-bottom: 0px;
+}
+/* .container-fluid {
+    padding: 2px;
+} */
+.depotContainer {
+    position: relative;
+    margin-top: 70px;
+}
+#map {
+    border: 1px black solid;
+    height: 500px;
+    position: relative;
+    width: 100%;
+    margin-top: 110px;
+}
+
+#depotInfo {
+    margin-top: 50px;
+    position: relative;
+    box-shadow: 2px 2px 4px #000000;
+    margin-bottom: 3px;
+    background-color: rgba(239, 255, 247, 0.842);
+    /* z-index: 2; */
+    /* background-color: rgba(217, 255, 228, 1); */
+}
+.hour {
+    padding-left: 45px;
+}
+.btnDisposal  {
+    clear: both;
+    width: 100%;
+    height: 60px;
+    box-shadow: 2px 2px 4px #198754;
+    background-color: rgba(239, 255, 247, 0.842);
+}
+.btnDirection{
+    clear: both;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px #198754;
+    background-color: rgba(239, 255, 247, 0.842);
+}
+.depotName, .info{
+    width: 100%;
+    border: solid 1px #198754;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.depotName {
+    height: 60px;
+    position: relative;
+}
+.depotName h2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.recyleItem {
+    float: left;
+    width: 90px;
+    margin: 10px;
+    background-color: rgba(239, 255, 247, 0.842);
+    border-color: #198754;
+    min-height: 115px;
+    box-shadow: 2px 2px 4px #198754;
+}
+.recyleItem img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    top: 5px;
+    transform: translateX(-50%);
+}
+.recyleItem p {
+    text-align: center;
+    padding-top: 3px;
+}
+#disposableMessage {
+    float: left;
+    position: relative;
+}
+.addFavourite {
+    float: right;
+    font-size: xx-large;
+    border: #198754;
+    color: grey;
+    background-color: transparent;
+    padding: 0px;
+    padding-right: 10px;
+    text-shadow: 1px 1px 1px #198754;
+}
+.addFavourite:hover{
+    color: red;
+    visibility: visible;
+}
+
+.removeFavourite {
+    float: right;
+    font-size: xx-large;
+    border: #198754;
+    color: red;
+    background-color: transparent;
+    padding: 0px;
+    padding-right: 10px;
+}
+/* .removeFavourite:hover{
+    color: red;
+    visibility: visible;
+} */
+#btnList:hover, #btnMap:hover, #btnDisposalInfo:hover, .depot:hover, .btnshare:hover{
+background-color: #198754;
+color: white;
+}
+.sticky-bottom{
+    position: sticky;
+}
+/* .disposables {
+    margin-bottom: 20px;
+} */
+#listDepot{
+    margin-bottom: 90px;
+}
+.btnshare{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px #198754;
+    background-color: rgba(239, 255, 247, 0.842);
+    margin-bottom: 10px;
+    color: #198754;
+}
+.twitterlogo{
+    width: 50px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 10px;
+
+}

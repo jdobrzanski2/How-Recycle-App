@@ -1,0 +1,123 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#nav-link {
+  color: #000;
+}
+
+#nav-link:hover {
+  color: #fff;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#container {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5rem 0 5rem 0;
+}
+
+#intro {
+  width: 100%;
+  height: 30%;
+  font-size: 1.5rem;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  border-radius: 25px;
+  position: relative;
+  background: linear-gradient(to right, #d3fadc, #aaebb8);
+}
+
+#intro p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#menu-search-box {
+  width: 100%;
+  height: 30%;
+  font-size: 1.5rem;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  border-radius: 25px;
+  position: relative;
+  background: linear-gradient(to right, #aaebb8, #d3fadc);
+}
+
+#menu-search-box p {
+  margin: 0;
+  position: absolute;
+  color: #000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#menu-search-box:hover {
+  background: linear-gradient(to right, #d3fadc, #aaebb8);
+  font-size: 1.7rem;
+}
+
+#more-info {
+  width: 100%;
+  cursor: pointer;
+  height: 30%;
+  font-size: 1.5rem;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  border-radius: 25px;
+  position: relative;
+  background: linear-gradient(to right, #aaebb8, #d3fadc);
+}
+
+#more-info p {
+  margin: 0;
+  position: absolute;
+  color: 000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#more-info:hover {
+  background: linear-gradient(to right, #d3fadc, #aaebb8);
+  font-size: 1.7rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: inherit;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: auto;
+}
+
+#search-autofill {
+  position: absolute;
+  margin-top: 2.5rem;
+  background-color: #fff;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid green;
+}

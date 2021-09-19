@@ -1,0 +1,70 @@
+.title {
+    margin-top: 2em;
+}
+
+#listFavorites {
+    
+    margin: 0 auto;
+    margin-top: 2em;
+    text-align: center;
+    width:85%;
+    box-shadow: 2px 2px 4px #198754;
+    background-color: rgba(239, 255, 247, 0.842);
+}
+
+.listElement {
+    display: grid;
+    grid-template-columns: 92% 8%;
+    grid-template-rows: 100%;
+    border: 1px solid rgb(196,223,204);
+    
+}
+
+.listElement:hover {
+    background-color: #25b16f;
+    border: 1px solid rgb(32,155,97);
+    
+}
+
+.remove {
+    float: left;
+    margin-right: 2em;
+    width: 100%;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.favoriteItem {
+    width:100%;
+    grid-row: 1;
+    grid-column: 1;
+    background-color: transparent;
+    border: transparent;
+}
+
+.favoriteItem:hover {
+    background-color: transparent;
+    
+}
+
+.toDelete {
+
+    float: right;
+    font-size: xx-large;
+    color: black;
+    background-color: transparent;
+    border: transparent;
+    border-left: transparent;
+    border-radius: 0px;
+}
+
+.toDelete:hover {
+
+    color: red;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.toDelete:click {
+    background-color: transparent;
+}
